@@ -5,7 +5,7 @@ const removeActiveClasses = () => {
 };
 
 cards.forEach((item, index) => {
-  item.addEventListener("mouseover", () => {
+  item.addEventListener("click", () => {
     removeActiveClasses();
     item.classList.add("active");
   });
