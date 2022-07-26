@@ -75,7 +75,7 @@ body {
 
 @media screen and (max-width: 992px){
   .page-wrapper .row{
-    display: none;
+    //display: none;
   }
   .alertText{
     display: block;
